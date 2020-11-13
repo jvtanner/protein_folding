@@ -1,0 +1,17 @@
+*.DS_Store filter=lfs diff=lfs merge=lfs -text
+*.gitignore filter=lfs diff=lfs merge=lfs -text
+*.xml filter=lfs diff=lfs merge=lfs -text
+*.iml filter=lfs diff=lfs merge=lfs -text
+*.pdb filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.py filter=lfs diff=lfs merge=lfs -text
+*.pyc filter=lfs diff=lfs merge=lfs -text
+*.fasta filter=lfs diff=lfs merge=lfs -text
+*.frag filter=lfs diff=lfs merge=lfs -text
+*.rmsd filter=lfs diff=lfs merge=lfs -text
+starter_code !text !filter !merge !diff
+annealing_temps !text !filter !merge !diff
+README.md !text !filter !merge !diff
+1ubq_contact_map.png !text !filter !merge !diff
+1fw4_contact_map.png !text !filter !merge !diff
