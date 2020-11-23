@@ -208,7 +208,6 @@ class MCMCSampler(object):
         """
         outfile('kmer_stats.txt', 'iter: \ttemp: \t\t\t\tenergy:\n')
 
-
         # Take as many steps as necessary until we reach the target temp
         while self.T >= self.T_end:
             self.step()

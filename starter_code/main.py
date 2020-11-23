@@ -72,9 +72,9 @@ def main():
     seq_protein = Protein(sequence=seq)
     seq_protein.init_extended()
 
-    args.nfrags = 3
-    args.anneal_rate = .999
-    args.nsims = 1
+    # args.nfrags = 3
+    # args.anneal_rate = .999
+    # args.nsims = 1
 
     total_energy = []
     with open(os.path.join(args.logdir, 'simulation_summary_1fw4.txt'), 'w') as f:
